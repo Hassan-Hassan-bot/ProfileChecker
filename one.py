@@ -1,2 +1,0 @@
-print("Adsasda")
-print("loll")
