@@ -23,7 +23,7 @@ def students():
     elif age<30 and gpa>=2.5:
         print("You are eligible for a internship")
     else:
-        print("You are not eligible now please apply later")
+        print("You are not eligible now, please apply later")
 students()    
 
 
