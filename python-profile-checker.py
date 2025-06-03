@@ -19,11 +19,11 @@ def students():
     print("field :" , field)
     print("graduated :" , graduated)
     if age<25 and gpa>=3.5 and graduated=="yes":
-        print("You are eligible for a scholarship")
+        print(name.capitalize()+" you are eligible for a scholarship")
     elif age<30 and gpa>=2.5:
-        print("You are eligible for a internship")
+        print(name.capitalize()+"you are eligible for a internship")
     else:
-        print("You are not eligible now, please apply later")
+        print(name.capitalize()+" you are not eligible now, please apply later")
 students()    
 
 
