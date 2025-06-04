@@ -10,20 +10,25 @@
 def students():
     name= input("whats your name :")
     age=int(input("Enter your age :"))
-    gpa=float(input("Enter your gpa :"))
+    while True:
+        gpa = float(input("Enter your gpa (0-5): "))
+        if 0 <= gpa <= 5:  # chek gpa
+            break
+        else:
+            print("Invalid GPA! Please enter a number between 0 and 5.")
     field=input("what is your field of interest :")
     graduated=input("Yes or No :") 
     print("Name :" , name)
-    print("age :" , age)
-    print("gpa :" , gpa)
-    print("field :" , field)
-    print("graduated :" , graduated)
-    if age<25 and gpa>=3.5 and graduated=="yes":
-        print(name.capitalize()+" you are eligible for a scholarship")
-    elif age<30 and gpa>=2.5:
-        print(name.capitalize()+"you are eligible for a internship")
+    print("Age :" , age)
+    print("Gpa :" , gpa)
+    print("Field :" , field)
+    print("Graduated :" , graduated)
+    if age<25 and 5>=gpa>=3.5 and graduated.lower()=="yes":
+        print((name+", you are eligible for a scholarship").capitalize())
+    elif age<30 and 5>=gpa>=2.5:
+        print((name+", you are eligible for a internship").capitalize())
     else:
-        print(name.capitalize()+" you are not eligible now, please apply later")
+        print((name+", you are not eligible now, please apply later").capitalize())
 students()    
 
 
