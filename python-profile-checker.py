@@ -1,4 +1,4 @@
-# Write a Python program that asks the user for the following information:
+mvvzz66
 #     Name, Age, GPA (0-5, can be decimals), Field of Interest, Graduated ("yes" or "no").
 # 1- Print a nicely formatted 
 # 2- Based on the info, determine and print:
@@ -9,10 +9,10 @@
 
 def students():
     name= input("whats your name :")
-    age=int(input("Enter your age :"))
+    age=int(input("Enter your age :"))                 
     while True:
         gpa = float(input("Enter your gpa (0-5): "))
-        if 0 <= gpa <= 5:  # chek gpa
+        if 0 <= gpa <= 5:  # chek gpasssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssv   eeee                                                                         f fffffffffffffff
             break
         else:
             print("Invalid GPA! Please enter a number between 0 and 5.")
